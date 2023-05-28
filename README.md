@@ -8,7 +8,7 @@ Le jeu se compose uniquement de deux fichiers : `index.html` et `index.js`. Node
 
 ## Démo
 
-![present](./present.mp4)
+https://github.com/RaphaelNJ/3D_Window/assets/102818995/641ba15b-404e-47e3-ad2f-782c6da39fb5
 
 ## Installation
 
