@@ -8,7 +8,7 @@ Le jeu se compose uniquement de deux fichiers : `index.html` et `index.js`. Node
 
 ## Démo
 
-![present](present.mp4)
+![present](./present.mp4)
 
 ## Installation
 
