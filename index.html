@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>DoomJS</title>
+		<style>
+			body,
+			#playWindow {
+				height: 98vh;
+				width: 98vw;
+				margin: 0;
+				padding: 0;
+			}
+			#playWindow {
+				border: 3px black solid;
+				image-rendering: pixelated;
+				image-rendering: crisp-edges;
+			}
+			div {
+				background-color: aliceblue;
+				border: 2px solid aqua;
+			}
+		</style>
+		<script src="./index.js" defer></script>
+	</head>
+	<body
+		style="
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			align-content: space-around;
+			justify-content: space-around;
+			flex-wrap: wrap;
+			width: fit-content;
+			height: fit-content;
+		"
+	>
+		<div>
+			<h3>Change FOV : Scroll</h3>
+			<h3>Move : ZQSD</h3>
+			<h3>Up/Down : AE</h3>
+			<h3>Look Around : Mouse Move</h3>
+		</div>
+		<div>
+			<h1>Click on the Play Window to move</h1>
+			<canvas id="playWindow"></canvas>
+		</div>
+        <div style="border-color: salmon;">
+            <p>scroll may collide with other user agent event listenners and produce lag. To resolve this, you can change browser or refresh the page.</p>
+        </div>
+	</body>
+</html>
