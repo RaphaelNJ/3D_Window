@@ -8,7 +8,7 @@ Le jeu se compose uniquement de deux fichiers : `index.html` et `index.js`. Node
 
 ## Démo
 
-https://github.com/RaphaelNJ/3D_Window/assets/102818995/641ba15b-404e-47e3-ad2f-782c6da39fb5
+https://github.com/RaphaelNJ/3D_Window/assets/52333330/c2732ef6-18f5-4c16-b422-fcb188e96cb2
 
 ## Installation
 
