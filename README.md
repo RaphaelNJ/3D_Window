@@ -2,7 +2,7 @@
 
 3D_Window est un moteur graphique 3D (ou 2.5D) simple basé sur la même technique de rendu que le premier jeu considéré comme 3D : Doom. Visuellement, Doom semble être en 3D, mais mathématiquement, il n'est ni complètement en 2D ni réellement en 3D. C'est pourquoi on parle de dimension 2.5D. En tant que moteur de rendu, il ne comporte pas de physique et permet de traverser les murs.
 
-Le projet a été initialement développé en un week-end en C, en utilisant le terminal pour afficher les images. C'était ma façon de prouver qu'un jeu 3D peut fonctionner dans un terminal. Malheureusement, j'ai perdu les fichiers originaux, donc je les ai réécrits en utilisant cette fois JavaScript pour gagner du temps et être le plus compréhensible possible (de toute façon il ne fait que 500 lignes au total). Je n'ai pas eu le temps d'implémenter les textures, donc les surfaces sont affichées dans une couleur unie.
+Le projet a été initialement développé en un week-end en C, en utilisant le terminal pour afficher les images. C'était ma façon de prouver qu'un jeu 3D peut fonctionner dans un terminal. Malheureusement, j'ai perdu les fichiers originaux, donc je les ai réécrits en utilisant cette fois JavaScript pour gagner du temps et être le plus compréhensible possible (de toute façon, le projet est très simple : il ne fait que 500 lignes au total). Je n'ai pas eu le temps d'implémenter les textures, donc les surfaces sont affichées dans une couleur unie.
 
 Le jeu se compose uniquement de deux fichiers : `index.html` et `index.js`. Node.js n'est pas requis. Le jeu s'appelait initialement "3D_Term" pour mettre l'accent sur son utilisation du terminal, mais il est maintenant appelé "3D_Window" car il s'exécute dans le navigateur.
 
@@ -12,7 +12,7 @@ https://github.com/RaphaelNJ/3D_Window/assets/52333330/c2732ef6-18f5-4c16-b422-f
 
 ## Installation
 
-Aucune étapes d'installation particulière est demandé. Il suffit donc seulement de :
+Aucune étape d'installation particulière n'est demandée. Il suffit donc seulement de :
 
 1. Clonez ce dépôt sur votre machine locale.
 ```shell
